@@ -19,12 +19,13 @@ body{
 }
 
 .nav-container{
-    border: 1px solid goldenrod;
+
     min-height: 50px; 
     display: flex;
     align-items: center;
     max-width: 1400px;
     height: 130px;
+    margin: 0 auto;
 }
 .logo-container{
  display: flex;
@@ -46,4 +47,12 @@ body{
 }
 .nav-item-container a{
     text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+.Follow-us{
+    background-color:rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
+    border-radius: 5px;
 }
