@@ -263,14 +263,12 @@ background-clip: text;
 }
 /* design logo  */
 .desin-logo-container{
-    border: 1px solid green;
     max-width: 1400px;
     margin: 50px auto 0;
     min-height: 200px;
     margin-bottom: 300px;
 }
 .single-token{
-    border: 1px solid greenyellow;
     width: 243px;
     height: 80px;
 }
@@ -280,7 +278,6 @@ background-clip: text;
     align-items: center;
 }
 .logo-token2{
-    border: 1px solid greenyellow;
     width: 243px;
     height: 80px;
 }
@@ -299,7 +296,6 @@ background-clip: text;
     
 }
 .footer-item{
-    border: 1px solid goldenrod;
     min-height: 600px;
     max-width: 1400px;
     margin: 50px auto 0;
@@ -334,7 +330,7 @@ color: white;
     list-style: none;
     font-size: 18px;
     font-weight: 600;
-    color: white;
+    text-decoration-color: white;
 
 }
 .social-logo{
