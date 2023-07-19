@@ -35,5 +35,9 @@
         text-align: center;
 
     }
+    .poster-container{
+        flex-direction: column;
+        width: auto;
+    }
 
 }

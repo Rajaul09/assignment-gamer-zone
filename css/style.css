@@ -184,7 +184,7 @@ line-height: normal;
 
 }
 .poster-container{
- border: 1px solid rgb(156, 3, 47);
+ 
  min-height: 420px;
  max-width: 1400px;
  margin: 50px auto 0;
@@ -193,7 +193,7 @@ line-height: normal;
 }
 .banner-one{
     width: 30%;
-    border: 1px solid blueviolet;
+    
 }
 .banner-two{
     width: 30%;
@@ -213,4 +213,51 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 30px; /* 150% */
+}
+
+/* hourse poster start */
+
+.hourse-container{
+ margin: 50px auto 0;
+ max-width: 1400px;
+ display: flex;
+ align-items: center;
+}
+.hourse-container-text{
+    width: 50%;
+    text-align: center;
+    line-height: 30px;
+    
+}
+.hourse-container-img{
+    width: 50%;
+    margin-right: 40px;
+}
+.play-text{
+   
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.hourse-title{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    color: #0B0223;
+}
+.hourse-paragraph{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.position-img{
+    position: relative;
+    bottom: 250px;
+}
+.main-img-hourse{
+    height: 100%;
+    margin-left: 105px;
 }
