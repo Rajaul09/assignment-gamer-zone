@@ -297,13 +297,13 @@ background-clip: text;
 }
 .footer-item{
     min-height: 600px;
-    max-width: 1400px;
     margin: 50px auto 0;
     background: #0B0223;
+    color: white;
+    line-height: 2.6;
 
 }
 .footer-text{
-    border: 1px solid #F948B2;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -326,25 +326,28 @@ color: white;
 }
 .list-class {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style: none;
     font-size: 18px;
     font-weight: 600;
     text-decoration-color: white;
+    gap: 50px;
 
 }
 .social-logo{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style: none;
     font-size: 70px;
     font-weight: 600; 
+    gap: 40px;
 }
 .footer-copyright{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style: none;
 }
 .copyright{
     color: white;
 }
+
