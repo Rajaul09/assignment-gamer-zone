@@ -303,6 +303,8 @@ background-clip: text;
     min-height: 600px;
     max-width: 1400px;
     margin: 50px auto 0;
+    background: #0B0223;
+
 }
 .footer-text{
     border: 1px solid #F948B2;
@@ -312,23 +314,27 @@ background-clip: text;
     gap: 20px;
     font-size: 45px;
     font-weight: 700;
+    color: white;
 }
 .g-span{
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
+    color: white;
 }
 .footer-text img{
 width: 86.041px;
 height: 40px;
+color: white;
 }
-.list-class{
+.list-class {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
     font-size: 18px;
     font-weight: 600;
+    color: white;
 
 }
 .social-logo{
@@ -337,4 +343,12 @@ height: 40px;
     list-style: none;
     font-size: 70px;
     font-weight: 600; 
+}
+.footer-copyright{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.copyright{
+    color: white;
 }
