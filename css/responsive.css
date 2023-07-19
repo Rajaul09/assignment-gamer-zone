@@ -28,5 +28,12 @@
     .banner-text{
         text-align: center;
     }
+    .game-banner-comtainer{
+        flex-direction: column;
+    }
+    .game-banner-text{
+        text-align: center;
+
+    }
 
 }
