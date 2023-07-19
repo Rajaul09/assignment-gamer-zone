@@ -39,5 +39,11 @@
         flex-direction: column;
         width: auto;
     }
+    .hourse-container{
+        flex-direction: column;
+    }
+    .desin-logo-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
 
 }
